@@ -1,0 +1,148 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #854545;
+}
+
+.image-container {
+    margin-right: 20px; 
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: auto; 
+    height: auto; 
+}
+
+.feedback-wrapper {
+    width: 400px;
+    padding: 0.3rem 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    border-radius: 0.25rem;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    z-index: 1;
+    background-color: #ffffff;
+    z-index: 1;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.feedback-wrapper .feedback-title {
+    font-weight: bold;
+    font-size: auto;
+}
+
+.feedback-wrapper .feedback-content {
+    line-height: 1.6;
+    color: #000000;
+}
+
+.feedback-rate-box {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: auto;
+}
+
+.feedback-rate-box input {
+    display: none;
+}
+
+.feedback-rate-box input:hover ~ .feedback-star:before {
+    color: rgba(255, 204, 51, 0.5);
+}
+
+.feedback-rate-box input:active + .feedback-star:before {
+    transform: scale(0.9);
+}
+
+.feedback-rate-box input:checked ~ .feedback-star:before {
+    color: #ffcc33;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), -3px -3px 8px rgba(255, 255, 255, 0.8);
+}
+
+.feedback-rate-box .feedback-star:before {
+    content: "★";
+    display: inline-block;
+    font-family: "Potta One", cursive;
+    font-size: 50px;
+    cursor: pointer;
+    color: #0000;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    background-color: #aaa;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transition: all 0.3s;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    width: 100%;
+    padding: 0.2rem;
+    color: inherit;
+    font-family: inherit;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    box-shadow: inset 2px 2px 8px rgba(0, 0, 0, 0.3), inset -2px -2px 8px rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+textarea:focus {
+    outline-color: #ffcc33;
+}
+
+.feedback-submit-btn {
+    padding: 0.2rem 0.5rem;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), -3px -3px 8px rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: #ffcc33;
+    transition: all 0.2s;
+}
+
+.feedback-submit-btn:active {
+    transform: translate(2px, 2px);
+}
+
+.imagem-feedback {
+    height: 500px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.feedback-title {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.feedback-content {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.feedback-submit-btn {
+    width: 90px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.fundo-feedback {
+    background-color: #854545;
+}
+

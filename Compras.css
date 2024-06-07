@@ -1,0 +1,83 @@
+body{
+    background-color: #eceaea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    margin: 3em;
+}
+
+.perfil-principal {
+    display: flex;
+    justify-content: start;
+    margin: 20px 80px 20px 250px;
+}
+
+.nome {
+    display: flex;
+    margin: 30px 10px 15px 20px;
+    font-size: 50px;
+}
+
+.info {
+    display: flex;
+    margin: 15px 10px 15px 25px;
+    font-size: 20px;
+}
+
+.Ca {
+    font-size: 2em;
+    margin: 15px 10px 10px 25px;
+}
+
+.Cb {
+    font-size: 2em;
+    margin: 15px 10px 10px 160px;
+}
+
+.info-location{
+    width: 3fr;
+}
+.Endereco{
+    align-items: flex-start;
+    font-size: 15px;
+    width: 200px;
+}
+
+.parte2 {
+    grid-template-columns: 300px 300px;
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+#container {
+    display: grid;
+    justify-items: flex-end;
+    grid: repeat(2, 260px) / auto-flow 280px;
+  }
+  
+  #container > .compra {
+    align-items: flex-start;
+    background-color: #8ca0ff;
+    width: 250px;
+    height: 250px;
+  }
+
+  .fav {
+    font-size: 3em;
+    margin: 20px 80px 20px 730px;
+    align-items: center;
+  }
+
+  .row2 {
+    background-color: #D0AE79;
+  }
+
+  .Minhas-Mercadorias {
+    margin: 20px 50px 30px 50px;;
+    grid-template-columns: 300px 300px;
+    height: auto;
+    justify-content: space-evenly;
+    display: flex;
+  }
